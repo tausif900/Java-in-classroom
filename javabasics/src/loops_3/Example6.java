@@ -6,9 +6,8 @@ public class Example6 {
 		int n = 5;
 		int i = 1;
 		while (i <= 10) {
-			System.out.println(n*i);
+			System.out.println(n * i);
 			i++;
 		}
 	}
-
 }
