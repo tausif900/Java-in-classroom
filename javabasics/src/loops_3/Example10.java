@@ -14,7 +14,7 @@ public class Example10 {
 			} else if (n < 0) {
 				System.out.println(n + " is negative");
 			} else {
-				System.out.println(n + " is nuetral");
+				System.out.println(n + " is neutral");
 			}
 		}
 	}
