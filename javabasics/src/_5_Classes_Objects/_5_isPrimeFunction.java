@@ -1,6 +1,6 @@
 package _5_Classes_Objects;
 
-public class _6_isPrimeFunction {
+public class _5_isPrimeFunction {
 
 //	Function isPrime
 	public static boolean isPrime(int n) {
@@ -17,8 +17,9 @@ public class _6_isPrimeFunction {
 	public static void main(String[] args) {
 		int a[] = { 12, 4, 6, 3, 2, 8, 9 };
 		for (int n : a) {
-			if (isPrime(n)) {
-				System.out.println(n + " is " + isPrime(n));
+			if (
+					isPrime(n)) {
+				System.out.println(n);
 			}
 		}
 	}
