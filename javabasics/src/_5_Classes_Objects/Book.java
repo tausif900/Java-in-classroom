@@ -23,5 +23,16 @@ public class Book {
 
 //	Book20% Book30% Book40%
 //	function belongs to the obj
-
+// Function
+	public double getDiscount(String coupon) {
+		switch (coupon) {
+		case "Book20":
+			return this.bookPrice * 0.8;
+		case "Book30":
+			return this.bookPrice * 0.7;
+		case "Book40":
+			return this.bookPrice * 0.6;
+		}
+		return 0;
+	}
 }
