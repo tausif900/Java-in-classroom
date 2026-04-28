@@ -6,7 +6,7 @@ public class _2_FunctionWithReturn {
 
 //	void hai to hume function ka access ni milta
 
-//	When we have data-type except void , now we have access to the function as it returns somwthing
+//	When we have data-type except void , now we have access to the function as it returns something
 
 //	Function for Addition of 2 numbers
 	public static int add(int a, int b) {
@@ -14,7 +14,7 @@ public class _2_FunctionWithReturn {
 	}
 	
 
-//	Function for Average of 2 numbers
+//	Function for Average of 3 numbers
 	public static int Average(int a, int b, int c) {
 		return (a + b + c) / 3;
 	}
