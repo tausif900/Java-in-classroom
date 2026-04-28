@@ -10,7 +10,7 @@ public class Example6 {
 		int min = array[0];
 		
 		
-//		har ek value n me aaegi and then check hoga n> max haiki ni , agr haito max ko replace krdo wrna wahi vlaue rehnedo
+//		har ek value n me aaegi and then check hoga n> max haiki ni , agr haito max ko replace krdo wrna wahi value rehnedo
 		for (int n : array) {
 			if (n > max) {
 				max = n;
