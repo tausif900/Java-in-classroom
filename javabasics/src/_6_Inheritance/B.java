@@ -5,3 +5,5 @@ public class B extends A {
 		super("Hello");
 	}
 }
+
+//super - parent ko  data pohchao..
