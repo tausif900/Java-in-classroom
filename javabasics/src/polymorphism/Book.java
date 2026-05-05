@@ -5,7 +5,7 @@ public class Book {
 	private String bookName;
 	private int price;
 
-//	Conctructor Over Loading
+//	Conctructor Over Loading - Similar like Method overloading, same method name, with different parameters and within the same class
 
 	public Book(int bookId, String bookName) {
 		super();
