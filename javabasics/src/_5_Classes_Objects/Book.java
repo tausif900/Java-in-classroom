@@ -13,7 +13,7 @@ public class Book {
 		System.out.println("Book Obj created");
 	}
 
-//	Parameterised Constructor
+//	Parameterized Constructor
 	Book(int bookId, String bookName, int bookPrice) {
 		this.bookId = bookId;
 		this.bookName = bookName;
