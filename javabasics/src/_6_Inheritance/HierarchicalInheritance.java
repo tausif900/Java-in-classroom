@@ -37,3 +37,19 @@ public class HierarchicalInheritance {
 // Multiple Inheritance can't possible in Java through Classes but through Interfaces.........
 
 // Hybrid Inheritance - combination of different  types of Inheritance
+
+
+/*	Access Modifiers - apply on class ,on methods, on constructors
+ * private	-  accessible only within the class and not outside.
+ * default	-	when we don't give Access Modifier then it is considered as  default.outside the package default members cann't 				accessible
+ * protected	-	Within the package accessible but we cann't access outside but if we want to access then we have to do the 					inheritance
+ * public	-	accessible in the package as well as outside the package 
+ * */
+
+
+
+
+
+
+
+
