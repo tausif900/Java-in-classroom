@@ -34,7 +34,7 @@ class C implements I1, I2 {
 }
 
 public class MultipleInheritance {
-//	we cann't achieve this using classes but interfaces we can achieve
+//	we cann't achieve this using classes but using interfaces we can achieve
 	public static void main(String[] args) {
 		C c1 = new C();
 		c1.method1();
