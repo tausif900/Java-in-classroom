@@ -6,7 +6,13 @@ public class Example1 {
 	public static void main(String[] args) {
 		System.out.println("Hello");
 		System.out.println("Hello");
-		System.out.println(10 / 0);
+		try {
+			System.out.println(10 / 0);
+		} catch (ArithmeticException e) {		// we are storing obj of arithmeticexception class in a variable 'e' of type ArithmeticException.
+			System.out.println("Cannot divide by zero");
+		}
 		System.out.println("Hello");
 	}
 }
+
+//	Arithmetic exception is a class that inherits RuntimeException, it inherits Exception and it inherits Throwable naam ke parent class ko

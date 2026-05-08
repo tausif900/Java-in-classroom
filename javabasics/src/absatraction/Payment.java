@@ -17,9 +17,7 @@ public interface Payment {
 //	By default all methods  in interface is public abstract method.
 //	object cannn't created directly. but using Anonymous inner type
 //	when we inherit inteface class, we have to override the methods of interface class in the child class.
-// 	parent is holding child ka object.
+// 	parent has the capability to holds child ka object.
 // 	In interface default method with implementation is allowed.
 // 	protected method with implementation is not allowed.
 // 	private with implementation is allowed
-
-
