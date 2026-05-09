@@ -1,4 +1,4 @@
-package absatraction;
+package abstraction;
 
 interface I1 {
 	void method1();

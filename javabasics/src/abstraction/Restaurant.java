@@ -1,4 +1,4 @@
-package absatraction;
+package abstraction;
 
 public abstract class Restaurant {
 	abstract void menu();

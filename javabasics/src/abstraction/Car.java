@@ -1,4 +1,4 @@
-package absatraction;
+package abstraction;
 
 public class Car extends Vehicle {
 
