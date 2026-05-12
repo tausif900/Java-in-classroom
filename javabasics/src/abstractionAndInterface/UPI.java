@@ -1,4 +1,4 @@
-package abstraction;
+package abstractionAndInterface;
 
 public class UPI implements Payment {
 

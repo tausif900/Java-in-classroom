@@ -1,4 +1,4 @@
-package abstraction;
+package abstractionAndInterface;
 
 public abstract class Restaurant {
 	abstract void menu();
