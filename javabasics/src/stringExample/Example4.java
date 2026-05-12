@@ -11,6 +11,7 @@ public class Example4 {
 			System.out.println(s.substring(0, s.indexOf(".")));
 			System.out.println(s.substring(s.indexOf(".")));
 		}
-
 	}
 }
+
+// try more methods to solve of strings.
