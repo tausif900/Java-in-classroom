@@ -10,5 +10,9 @@ public class Main {
 
 		Book b1 = new Book(101, "FairyTales");
 		Book b2 = new Book(102, "Ali Baba Chalees Chor", 200);
+		
+		System.out.println(b1.equals(b2));
+		System.out.println(b1.getBookId());
+		System.out.println(b2.getBookName());
 	}
 }

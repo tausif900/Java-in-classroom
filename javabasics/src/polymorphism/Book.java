@@ -20,4 +20,18 @@ public class Book {
 		this.price = price;
 	}
 
+	public int getBookId() {
+		return bookId;
+	}
+
+	public String getBookName() {
+		return bookName;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+	
+	
+
 }
