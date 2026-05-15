@@ -10,10 +10,10 @@ interface I6 {
 	void printNumber(int n);
 }
 
-@FunctionalInterface
-interface I7 {
-	void add(int a, int b);
-}
+//@FunctionalInterface
+//interface I7 {
+//	void add(int a, int b);
+//}
 
 public class Example5 {
 	public static void main(String[] args) {
@@ -48,9 +48,9 @@ public class Example5 {
 		
 		System.out.println("----------------------------------------");
 		
-		I7 obj4 = (a, b) ->  a + b;
-		System.out.println(4,6);
+//		I7 obj4 = (a, b) ->  a + b;
+//		System.out.println(4,6);
 	}
 }
 //lambda expression is the 
-//lamdba sirf functional interface ke lie hi bnega.
+//lamdba expression can be created only for the functional interface.
