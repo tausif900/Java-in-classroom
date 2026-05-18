@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class Example5 {
 	public static void main(String[] args) {
-//	Linkedlist - Store krne ka way different. it inheriits double dequeue... null and duplicates allowed, each and every element is having address of other elements. Searching is easy
+//	Linkedlist - Store krne ka way different. it inheriits double dequeue... null and duplicates allowed, each and every element is having address of other elements. Searching is not easy
 
 		LinkedList<String> linkedList1 = new LinkedList<String>();
 		linkedList1.add("Tausif");
