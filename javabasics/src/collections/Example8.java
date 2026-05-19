@@ -1,8 +1,16 @@
 package collections;
 
+import java.util.HashSet;
+
 public class Example8 {
 	public static void main(String[] args) {
-
+		HashSet<Integer> hashSet = new HashSet<Integer>();
+		hashSet.add(34);
+		hashSet.add(34);
+		hashSet.add(100);
+		hashSet.add(92);
+		hashSet.add(null); // null values are allowed.
+		System.out.println(hashSet); // Duplicates will not prints.
 	}
 }
 
