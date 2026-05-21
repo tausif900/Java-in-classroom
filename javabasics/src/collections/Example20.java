@@ -12,8 +12,11 @@ public class Example20 {
 		students.put(103, "Khatija");
 		students.put(104, "Nimra");
 		System.out.println(students);
-		System.out.println(students.getOrDefault(1011, "Key not present"));		//It return value which we give if the key is not present.
-
+		System.out.println(students.getOrDefault(1011, "Key not present")); // It return value which we give if the key
+																			// is not present.
+		System.out.println(students);
+		students.putIfAbsent(105, "Aman");
+		System.out.println(students);
 //		System.out.println(students.get(101));
 //		System.out.println(students.get(1013)); // As key is not present it gives null.
 
