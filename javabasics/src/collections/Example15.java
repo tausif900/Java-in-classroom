@@ -21,5 +21,5 @@ public class Example15 {
 	}
 }
 //	Queue-It is an Interface,It follows FIFO Principle 'First In First Out',from tail elements inserted and from head elements are removed.
-//	Dequeue-Insertion and deletion can be happesned from both the directoins.
+//	Dequeue-Insertion and deletion can be happened from both the directoins.
 //	PriorityQueue-We are providing the Priority.
