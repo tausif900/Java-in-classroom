@@ -26,7 +26,9 @@ public class Example23 {
 
 		System.out.println("---------------------------------------");
 		List<String> students = Arrays.asList("Tausif", "Arman", "Sahil");
-		
-		students.stream().forEach((s)->System.out.println(s+" "+s.length()));
+
+		students.stream().forEach((s) -> System.out.println(s + " " + s.length()));
+
+		students.stream().filter((s) -> s.startsWith("A")).forEach((s) -> System.out.println(s));
 	}
 }
