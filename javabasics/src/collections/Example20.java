@@ -19,7 +19,17 @@ public class Example20 {
 		System.out.println(students);
 //		System.out.println(students.get(101));
 //		System.out.println(students.get(1013)); // As key is not present it gives null.
+		System.out.println(students.keySet());
 
+		for (Integer i : students.keySet()) {
+			System.out.println(i + " " + students.get(i));
+		}
+
+		System.out.println(students.values());
+		System.out.println(students.containsKey(101));
+		System.out.println(students.containsValue("Tausif"));
+		
+		
 //		System.out.print("Enter a roll no: ");
 //		int rollNo = sc.nextInt();
 //		String name = students.get(rollNo);
