@@ -40,3 +40,9 @@ public class Example7 {
 
 	}
 }
+
+//		one example program related to multithreading using collection concepts.
+// 		Printer , bank balance , doctor application projects.
+//											Step
+//														
+//		JDBC-java database connectivity.  connection url - jdbc:mysql://localhost:port_no/database-name.
